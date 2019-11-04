@@ -12,6 +12,6 @@
   `$ npm install`
 - Realize a instalação do docker (O banco está em um container).
   `$ docker run --name mysql -e MYSQL_ROOT_PASSWORD=mysql -d mysql:5.7`
-- Realize a instalação do MySQL Workbench e crie uma database chamada 'fstest'. Também há a possibilidade de criar a tabela via bash.
+- Realize a instalação do MySQL Workbench e crie uma database chamada 'fstest'. Também há a possibilidade de criar a database via bash.
 - No diretório do projeto, rode a migration de client:
   `$ npx sequelize db:migrate`
